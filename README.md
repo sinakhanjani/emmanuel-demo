@@ -42,13 +42,7 @@ Emmanuel is a modern and intuitive online confectionery store based in the Unite
 
 ## Screenshots
 
-1. ![Screenshot 1](./mnt/1.jpg)
-2. ![Screenshot 2](./mnt/2.jpg)
-3. ![Screenshot 3](./mnt/3.jpg)
-4. ![Screenshot 4](./mnt/4.jpg)
-5. ![Screenshot 5](./mnt/5.jpg)
-6. ![Screenshot 6](./mnt/6.jpg)
-7. ![Screenshot 7](./mnt/7.jpg)
+1. ![Screenshot 1](./mnt/grid_image.jpeg)
 
 ## Video
 
