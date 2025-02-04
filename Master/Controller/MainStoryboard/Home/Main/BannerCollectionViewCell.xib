@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="BannerCollectionViewCell" customModule="Emmanuel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="153"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="153"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wfD-I9-cni">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="153"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wfD-I9-cni" secondAttribute="bottom" id="2OM-a7-2hG"/>
+                <constraint firstItem="wfD-I9-cni" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4P8-bf-Bsj"/>
+                <constraint firstAttribute="trailing" secondItem="wfD-I9-cni" secondAttribute="trailing" id="He7-L4-vHo"/>
+                <constraint firstItem="wfD-I9-cni" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ixV-ns-SsK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="340" height="153"/>
+            <connections>
+                <outlet property="bannerImageView" destination="wfD-I9-cni" id="OWq-54-hI0"/>
+            </connections>
+            <point key="canvasLocation" x="-72.463768115942031" y="139.62053571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>
