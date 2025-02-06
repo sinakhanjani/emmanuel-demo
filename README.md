@@ -11,16 +11,7 @@
 - **🎯 Advanced Filtering** – Find products quickly with filters for price, category, and other attributes.
 - **🔔 Push Notifications** – Stay updated with the latest offers and promotions via notifications.
 - **💳 Secure Online Payments** – Integrated with **Stripe** for a smooth and secure checkout experience.
-
-## 🛠️ Tech Stack
-
-### Backend:
-- **Node.js** – Used to power the backend, ensuring high performance and scalability.
-
-### Mobile Applications:
-- **iOS (Native)**
-- **Android (Native)**
-
+- 
 # Emmanuel - Online Confectionery Store
 
 ## Overview
